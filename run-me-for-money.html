@@ -3,7 +3,7 @@
 <style type="text/css">
 	body {
 		background-position:center;
-		background-image: url("resources/bg2.png");
+		background-image: url("bg2.png");
 		background-size:contain;
 		display:flex;
 		justify-content: center;
@@ -70,7 +70,7 @@
 		<div>
 			<button class="btn btn-shadow-drop btn-shadow-drop--black" id="ASong" onClick="play()">
 				<audio
-				src="resources/bm.mp3"
+				src="bm.mp3"
 				autoplay
 				loop
 				></audio>
@@ -92,7 +92,7 @@
 	function swapScreen() {
 		aud.play();
 		document.getElementById("txt").style.visibility="visible";
-		document.getElementById("bdy").style.backgroundImage="url(resources/bg.png)";
+		document.getElementById("bdy").style.backgroundImage="url(bg.png)";
 		document.getElementById("bdy").style.height="100vh";
 	}
 </script>
